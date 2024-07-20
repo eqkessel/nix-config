@@ -34,6 +34,8 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
+    pkgs.mtr
+    pkgs.traceroute
   ];
 
   programs.git = {

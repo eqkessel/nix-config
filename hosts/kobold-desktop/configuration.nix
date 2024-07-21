@@ -48,6 +48,7 @@
 
   networking.hostName = "kobold-desktop"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
+  networking.wireless.userControlled.enable = true;
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -159,6 +160,9 @@
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
+
+  # Enable flakes
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.qynn = {

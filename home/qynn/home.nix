@@ -36,6 +36,8 @@
     # '')
     pkgs.mtr
     pkgs.traceroute
+    pkgs.pciutils
+    pkgs.usbutils
   ];
 
   programs.git = {

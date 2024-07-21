@@ -1,0 +1,12 @@
+Jul 21 18:41:04 kobold-desktop systemd[1]: Starting Network Manager...
+Jul 21 18:41:05 kobold-desktop systemd[1]: Started Network Manager.
+Jul 21 18:41:17 kobold-desktop NetworkManager[1180]: <warn>  [1721601677.4439] device (wlp13s0): no secrets: No agents were available for this request.
+Jul 21 18:41:17 kobold-desktop NetworkManager[1180]: <warn>  [1721601677.4441] device (wlp13s0): Activation: failed for connection 'EKesselWireless'
+Jul 21 18:51:53 kobold-desktop NetworkManager[1180]: <warn>  [1721602313.7770] device (wlp13s0): link timed out.
+Jul 21 18:51:54 kobold-desktop NetworkManager[1180]: <warn>  [1721602314.0512] device (wlp13s0): Activation: failed for connection 'EKesselWireless'
+Jul 21 19:21:18 kobold-desktop NetworkManager[1180]: <warn>  [1721604078.7773] device (wlp13s0): Activation: (wifi) association took too long, failing activation
+Jul 21 19:21:19 kobold-desktop NetworkManager[1180]: <warn>  [1721604079.8665] device (wlp13s0): Activation: failed for connection 'EKesselWireless'
+Jul 21 19:21:47 kobold-desktop NetworkManager[1180]: <warn>  [1721604107.7774] device (wlp13s0): Activation: (wifi) association took too long, failing activation
+Jul 21 19:21:47 kobold-desktop NetworkManager[1180]: <warn>  [1721604107.8485] device (wlp13s0): Activation: failed for connection 'EKesselWireless'
+Jul 21 19:36:23 kobold-desktop NetworkManager[1180]: <warn>  [1721604983.7775] device (wlp13s0): Activation: (wifi) association took too long, failing activation
+Jul 21 19:36:23 kobold-desktop NetworkManager[1180]: <warn>  [1721604983.8796] device (wlp13s0): Activation: failed for connection 'EKesselWireless'

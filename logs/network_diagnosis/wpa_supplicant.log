@@ -1,0 +1,125 @@
+Jul 21 18:41:05 kobold-desktop systemd[1]: Starting WPA supplicant...
+Jul 21 18:41:05 kobold-desktop wpa_supplicant[1284]: Successfully initialized wpa_supplicant
+Jul 21 18:41:05 kobold-desktop systemd[1]: Started WPA supplicant.
+Jul 21 18:41:06 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 18:41:07 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 18:41:10 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 18:41:17 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: PMKSA-CACHE-ADDED 42:0f:c1:48:de:44 0
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: Trying to associate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: Associated with 42:0f:c1:48:de:44
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 21 18:41:20 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=US
+Jul 21 18:41:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:48:de:44 [PTK=CCMP GTK=CCMP]
+Jul 21 18:41:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-CONNECTED - Connection to 42:0f:c1:48:de:44 completed [id=0 id_str=]
+Jul 21 18:41:23 kobold-desktop wpa_supplicant[1284]: bgscan simple: Failed to enable signal strength monitoring
+Jul 21 18:41:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:48:de:44 [PTK=CCMP GTK=CCMP]
+Jul 21 18:41:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:48:de:44 [PTK=CCMP GTK=CCMP]
+Jul 21 18:51:37 kobold-desktop wpa_supplicant[1284]: wlp13s0: WNM: Preferred List Available
+Jul 21 18:51:38 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 40:0f:c1:4f:de:45 (SSID='EKesselWireless' freq=6295 MHz)
+Jul 21 18:51:38 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=CORE type=WORLD
+Jul 21 18:51:38 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 40:0f:c1:4f:de:45 (SSID='EKesselWireless' freq=6295 MHz)
+Jul 21 18:51:38 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Authentication request to the driver failed
+Jul 21 18:51:38 kobold-desktop wpa_supplicant[1284]: BSSID 40:0f:c1:4f:de:45 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 18:51:38 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 18:51:39 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:51:39 kobold-desktop wpa_supplicant[1284]: wlp13s0: Trying to associate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:51:39 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DISCONNECTED bssid=42:0f:c1:48:de:44 reason=17
+Jul 21 18:51:41 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 18:51:41 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 18:51:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:41:de:43 (SSID='EKesselWireless' freq=2462 MHz)
+Jul 21 18:51:51 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:51:51 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:48:de:44 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 18:51:51 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="EKesselWireless" auth_failures=1 duration=10 reason=CONN_FAILED
+Jul 21 18:51:54 kobold-desktop wpa_supplicant[1284]: wlp13s0: PMKSA-CACHE-REMOVED 42:0f:c1:48:de:44 0
+Jul 21 18:51:54 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 18:51:59 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 18:51:59 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:52:01 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:52:01 kobold-desktop wpa_supplicant[1284]: wlp13s0: PMKSA-CACHE-ADDED 42:0f:c1:48:de:44 0
+Jul 21 18:52:01 kobold-desktop wpa_supplicant[1284]: wlp13s0: Trying to associate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 18:52:01 kobold-desktop wpa_supplicant[1284]: wlp13s0: Associated with 42:0f:c1:48:de:44
+Jul 21 18:52:01 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 21 18:52:01 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=US
+Jul 21 18:52:04 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:48:de:44 [PTK=CCMP GTK=CCMP]
+Jul 21 18:52:04 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-CONNECTED - Connection to 42:0f:c1:48:de:44 completed [id=0 id_str=]
+Jul 21 18:52:04 kobold-desktop wpa_supplicant[1284]: bgscan simple: Failed to enable signal strength monitoring
+Jul 21 18:52:04 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:48:de:44 [PTK=CCMP GTK=CCMP]
+Jul 21 18:52:04 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:48:de:44 [PTK=CCMP GTK=CCMP]
+Jul 21 18:52:19 kobold-desktop wpa_supplicant[1284]: wlp13s0: Reject scan trigger since one is already pending
+Jul 21 19:10:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: Reject scan trigger since one is already pending
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DISCONNECTED bssid=42:0f:c1:48:de:44 reason=3 locally_generated=1
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:48:de:44 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: wlp13s0: PMKSA-CACHE-REMOVED 42:0f:c1:48:de:44 0
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: rfkill: WLAN soft blocked
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:20:49 kobold-desktop wpa_supplicant[1284]: nl80211: deinit ifname=wlp13s0 disabled_11b_rates=0
+Jul 21 19:20:51 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 19:20:51 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 19:20:53 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=BEACON_HINT type=UNKNOWN
+Jul 21 19:20:53 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-PBC-ACTIVE
+Jul 21 19:20:53 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 19:20:53 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:20:53 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:20:58 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:48:de:44 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 19:20:58 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:41:de:43 (SSID='EKesselWireless' freq=2462 MHz)
+Jul 21 19:21:18 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:21:19 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DISCONNECTED bssid=42:0f:c1:48:de:44 reason=3 locally_generated=1
+Jul 21 19:21:19 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:21:22 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 19:21:22 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:21:27 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Deauth request to the driver failed
+Jul 21 19:21:27 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:48:de:44 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 19:21:28 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:29 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:30 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:31 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:32 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:33 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:34 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:35 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SCAN-FAILED ret=-16 retry=1
+Jul 21 19:21:35 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:41:de:43 (SSID='EKesselWireless' freq=2462 MHz)
+Jul 21 19:21:38 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:41:de:43 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 19:21:38 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="EKesselWireless" auth_failures=1 duration=10 reason=CONN_FAILED
+Jul 21 19:21:49 kobold-desktop wpa_supplicant[1284]: rfkill: WLAN soft blocked
+Jul 21 19:21:49 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:21:49 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:21:49 kobold-desktop wpa_supplicant[1284]: nl80211: deinit ifname=wlp13s0 disabled_11b_rates=0
+Jul 21 19:21:59 kobold-desktop wpa_supplicant[1284]: wlp13s0: Reject scan trigger since one is already pending
+Jul 21 19:22:11 kobold-desktop wpa_supplicant[1284]: wlp13s0: Reject scan trigger since one is already pending
+Jul 21 19:35:47 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:35:47 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:35:47 kobold-desktop wpa_supplicant[1284]: nl80211: deinit ifname=wlp13s0 disabled_11b_rates=0
+Jul 21 19:35:54 kobold-desktop wpa_supplicant[1284]: rfkill: WLAN soft blocked
+Jul 21 19:35:54 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:35:54 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:35:54 kobold-desktop wpa_supplicant[1284]: nl80211: deinit ifname=wlp13s0 disabled_11b_rates=0
+Jul 21 19:35:58 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-PBC-ACTIVE
+Jul 21 19:35:58 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 19:35:58 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:36:05 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:48:de:44 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 19:36:18 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:36:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DISCONNECTED bssid=42:0f:c1:48:de:44 reason=3 locally_generated=1
+Jul 21 19:36:23 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:36:29 kobold-desktop wpa_supplicant[1284]: wlp13s0: Reject scan trigger since one is already pending
+Jul 21 19:36:30 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:36:30 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-DSCP-POLICY clear_all
+Jul 21 19:36:30 kobold-desktop wpa_supplicant[1284]: nl80211: deinit ifname=wlp13s0 disabled_11b_rates=0
+Jul 21 19:36:36 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-PBC-ACTIVE
+Jul 21 19:36:36 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPS-CANCEL
+Jul 21 19:36:36 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:48:de:44 (SSID='EKesselWireless' freq=5785 MHz)
+Jul 21 19:36:41 kobold-desktop wpa_supplicant[1284]: BSSID 42:0f:c1:48:de:44 ignore list count incremented to 2, ignoring for 10 seconds
+Jul 21 19:36:41 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:41:de:43 (SSID='EKesselWireless' freq=2462 MHz)
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: SME: Trying to authenticate with 42:0f:c1:41:de:43 (SSID='EKesselWireless' freq=2462 MHz)
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: PMKSA-CACHE-ADDED 42:0f:c1:41:de:43 0
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: Trying to associate with 42:0f:c1:41:de:43 (SSID='EKesselWireless' freq=2462 MHz)
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: Associated with 42:0f:c1:41:de:43
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-REGDOM-CHANGE init=COUNTRY_IE type=COUNTRY alpha2=US
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: WPA: Key negotiation completed with 42:0f:c1:41:de:43 [PTK=CCMP GTK=CCMP]
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: wlp13s0: CTRL-EVENT-CONNECTED - Connection to 42:0f:c1:41:de:43 completed [id=0 id_str=]
+Jul 21 19:36:42 kobold-desktop wpa_supplicant[1284]: bgscan simple: Failed to enable signal strength monitoring

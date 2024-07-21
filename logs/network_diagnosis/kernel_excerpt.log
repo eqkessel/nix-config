@@ -1,0 +1,97 @@
+Jul 21 18:41:04 kobold-desktop kernel: mt7921e 0000:0d:00.0 wlp13s0: renamed from wlan0
+Jul 21 18:41:04 kobold-desktop systemd[1]: Starting Load/Save RF Kill Switch Status...
+Jul 21 18:41:04 kobold-desktop systemd[1]: Started Load/Save RF Kill Switch Status.
+Jul 21 18:41:04 kobold-desktop systemd[1]: Finished Firewall.
+Jul 21 18:41:04 kobold-desktop kernel: RTL8226B_RTL8221B 2.5Gbps PHY r8169-0-e00:00: attached PHY driver (mii_bus:phy_addr=r8169-0-e00:00, irq=MAC)
+Jul 21 18:41:05 kobold-desktop kernel: r8169 0000:0e:00.0 enp14s0: Link is Down
+Jul 21 18:41:18 kobold-desktop kernel: NET: Registered PF_QIPCRTR protocol family
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: authenticated
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: associate with 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: RX AssocResp from 42:0f:c1:48:de:44 (capab=0x1011 status=0 aid=16)
+Jul 21 18:41:20 kobold-desktop kernel: wlp13s0: associated
+Jul 21 18:41:21 kobold-desktop kernel: wlp13s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 42:0f:c1:48:de:44
+Jul 21 18:44:01 kobold-desktop systemd-gpt-auto-generator[3535]: EFI loader partition unknown, exiting.
+Jul 21 18:44:01 kobold-desktop systemd-gpt-auto-generator[3535]: (The boot loader did not set EFI variable LoaderDevicePartUUID.)
+Jul 21 18:48:36 kobold-desktop kernel: warning: `ThreadPoolForeg' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
+Jul 21 18:51:38 kobold-desktop kernel: wlp13s0: disconnect from AP 42:0f:c1:48:de:44 for new auth to 40:0f:c1:4f:de:45
+Jul 21 18:51:38 kobold-desktop kernel: wlp13s0: authenticate with 40:0f:c1:4f:de:45
+Jul 21 18:51:38 kobold-desktop kernel: wlp13s0: send auth to 40:0f:c1:4f:de:45 (try 1/3)
+Jul 21 18:51:39 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 18:51:39 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:51:39 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 18:51:39 kobold-desktop kernel: wlp13s0: authenticated
+Jul 21 18:51:39 kobold-desktop kernel: wlp13s0: associate with 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:51:39 kobold-desktop kernel: wlp13s0: deauthenticated from 42:0f:c1:48:de:44 while associating (Reason: 17=IE_DIFFERENT)
+Jul 21 18:51:42 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:41:de:43
+Jul 21 18:51:43 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 1/3)
+Jul 21 18:51:45 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 2/3)
+Jul 21 18:51:47 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 3/3)
+Jul 21 18:51:48 kobold-desktop kernel: wlp13s0: aborting authentication with 42:0f:c1:41:de:43 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 21 18:51:51 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 18:51:51 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:51:51 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 18:51:51 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 3/3)
+Jul 21 18:51:51 kobold-desktop kernel: wlp13s0: authentication with 42:0f:c1:48:de:44 timed out
+Jul 21 18:51:54 kobold-desktop kernel: IPv6: ipv6_create_tempaddr: regeneration time exceeded - disabled temporary address support
+Jul 21 18:51:59 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 18:51:59 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: authenticated
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: associate with 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: RX AssocResp from 42:0f:c1:48:de:44 (capab=0x1011 status=0 aid=18)
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: associated
+Jul 21 18:52:01 kobold-desktop kernel: wlp13s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 42:0f:c1:48:de:44
+Jul 21 19:20:49 kobold-desktop kernel: wlp13s0: deauthenticating from 42:0f:c1:48:de:44 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 21 19:20:53 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 19:20:53 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 19:20:53 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 19:20:53 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 19:20:55 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 19:20:57 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 3/3)
+Jul 21 19:20:58 kobold-desktop kernel: wlp13s0: aborting authentication with 42:0f:c1:48:de:44 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 21 19:20:58 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:41:de:43
+Jul 21 19:20:58 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 1/3)
+Jul 21 19:21:02 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 2/3)
+Jul 21 19:21:03 kobold-desktop kernel: wlp13s0: aborting authentication with 42:0f:c1:41:de:43 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 21 19:21:18 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 19:21:19 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 19:21:35 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:41:de:43
+Jul 21 19:21:36 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 1/3)
+Jul 21 19:21:37 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 2/3)
+Jul 21 19:21:38 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 3/3)
+Jul 21 19:21:38 kobold-desktop kernel: wlp13s0: authentication with 42:0f:c1:41:de:43 timed out
+Jul 21 19:35:51 kobold-desktop kernel: mt7921e 0000:0d:00.0: ASIC revision: 79220010
+Jul 21 19:35:51 kobold-desktop kernel: mt7921e 0000:0d:00.0: HW/SW Version: 0x8a108a10, Build Time: 20240409163301a
+Jul 21 19:35:51 kobold-desktop kernel: mt7921e 0000:0d:00.0: WM Firmware Version: ____000000, Build Time: 20240409163347
+Jul 21 19:35:52 kobold-desktop kernel: mt7921e 0000:0d:00.0 wlp13s0: renamed from wlan0
+Jul 21 19:35:58 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 19:35:59 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 19:36:02 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 19:36:04 kobold-desktop kernel: wlp13s0: aborting authentication with 42:0f:c1:48:de:44 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 21 19:36:18 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 19:36:19 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 19:36:22 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 19:36:31 kobold-desktop kernel: mt7921e 0000:0d:00.0: ASIC revision: 79220010
+Jul 21 19:36:32 kobold-desktop kernel: mt7921e 0000:0d:00.0: HW/SW Version: 0x8a108a10, Build Time: 20240409163301a
+Jul 21 19:36:32 kobold-desktop kernel: mt7921e 0000:0d:00.0: WM Firmware Version: ____000000, Build Time: 20240409163347
+Jul 21 19:36:33 kobold-desktop kernel: mt7921e 0000:0d:00.0 wlp13s0: renamed from wlan0
+Jul 21 19:36:36 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:48:de:44
+Jul 21 19:36:36 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 1/3)
+Jul 21 19:36:38 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 2/3)
+Jul 21 19:36:40 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:48:de:44 (try 3/3)
+Jul 21 19:36:41 kobold-desktop kernel: wlp13s0: aborting authentication with 42:0f:c1:48:de:44 by local choice (Reason: 3=DEAUTH_LEAVING)
+Jul 21 19:36:41 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:41:de:43
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 1/3)
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: authenticate with 42:0f:c1:41:de:43
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: send auth to 42:0f:c1:41:de:43 (try 1/3)
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: authenticated
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: associate with 42:0f:c1:41:de:43 (try 1/3)
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: RX AssocResp from 42:0f:c1:41:de:43 (capab=0x1411 status=0 aid=13)
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: associated
+Jul 21 19:36:42 kobold-desktop kernel: wlp13s0: Limiting TX power to 30 (30 - 0) dBm as advertised by 42:0f:c1:41:de:43

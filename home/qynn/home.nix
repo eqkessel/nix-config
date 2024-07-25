@@ -15,9 +15,12 @@
   # release notes.
   home.stateVersion = "24.05"; # Please read the comment before changing.
 
+  # Allow unfree packages
+  nixpkgs.config.allowUnfree = true;
+
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = [
+  home.packages = with pkgs; [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
     # pkgs.hello
@@ -34,10 +37,11 @@
     # (pkgs.writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
-    pkgs.mtr
-    pkgs.traceroute
-    pkgs.pciutils
-    pkgs.usbutils
+    mtr
+    traceroute
+    pciutils
+    usbutils
+    conda
   ];
 
   programs.git = {
@@ -45,6 +49,10 @@
 
     userName = "Ethan Kessel";
     userEmail = "eqkessel@gmail.com";
+  };
+
+  programs.vscode = {
+    enable = true;
   };
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

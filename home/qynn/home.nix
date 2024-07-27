@@ -42,6 +42,7 @@
     pciutils
     usbutils
     conda
+    nil
   ];
 
   programs.git = {

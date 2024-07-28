@@ -44,6 +44,7 @@
     conda
     nil
     obsidian
+    telegram-desktop
   ];
 
   programs.git = {

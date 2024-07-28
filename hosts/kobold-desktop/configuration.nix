@@ -133,6 +133,33 @@
   services.displayManager.sddm.enable = true;
   services.desktopManager.plasma6.enable = true;
 
+  # Tablet support
+  services.xserver.digimend.enable = true;
+  services.xserver.inputClassSections = [
+    # Support for Huion Kamvas Pro 19 (GT-1902)
+    # Product uses a unique PID:VID = 256c:006b
+    ''
+      Identifier "Huion tablets with Wacom driver"
+      MatchUSBID "5543:006e|256c:006e|256c:006d|256c:0064|256c:006f|256c:006b"
+      MatchDevicePath "/dev/input/event*"
+      MatchIsKeyboard "false"
+      Driver "wacom"
+    ''
+  ];
+  # Display mapping is broken from Plasma control panel (or at least was last I
+  # checked). Fortunately, commands exist to map the tablet to the display.
+  # Unfortunately, it needs to be done every time the tablet is reconnected...
+  # 1) Obtain the list of tablet inputs: $ xsetwacom list
+  # Should see something like this:
+  #   HUION Huion Tablet_GT1902 Pen stylus    id: 18  type: STYLUS
+  #   HUION Huion Tablet_GT1902 touch         id: 19  type: TOUCH
+  #   HUION Huion Tablet_GT1902 touch         id: 20  type: TOUCH
+  #   HUION Huion Tablet_GT1902 Pen eraser    id: 26  type: ERASER
+  # Why there are 2 touch devices, and why the eraser is separate from the pen,
+  # IDK (there is a separate eraser tip on the back of the pens).
+  # 2) Set the output for each device $ xsetwacom set <id> MapToOutput HEAD-1
+  # HEAD-1 is a hacky workaround broken specific output port names like HDMI-0
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
@@ -192,14 +219,16 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-     vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
-     wget
-     discord
-     neofetch
-     logitech-udev-rules
-     solaar
-     signal-desktop
-     slack
+    vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+    wget
+    discord
+    neofetch
+    logitech-udev-rules
+    solaar
+    signal-desktop
+    slack
+    linuxKernel.packages.linux_6_6.digimend # I don't like that this requires an assumption of the kernel version to
+      # specify the kernel module to use, it seems fragile... is there a better way to do this?
   ];
 
   # Enable Udev rules for hardware access from Solaar

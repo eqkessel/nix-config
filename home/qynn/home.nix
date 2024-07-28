@@ -45,6 +45,7 @@
     nil
     obsidian
     telegram-desktop
+    krita
   ];
 
   programs.git = {

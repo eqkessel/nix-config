@@ -43,6 +43,7 @@
     usbutils
     conda
     nil
+    obsidian
   ];
 
   programs.git = {
@@ -63,6 +64,10 @@
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
+    ".local/share/applications/firefox_eqkessel.desktop".source = resources/firefox_profiles/firefox_eqkessel.desktop;
+    ".local/share/applications/firefox_spacekobold.desktop".source = resources/firefox_profiles/firefox_spacekobold.desktop;
+    ".local/share/applications/ff_eqkessel128.png".source = resources/firefox_profiles/ff_eqkessel128.png;
+    ".local/share/applications/ff_spacekobold128.png".source = resources/firefox_profiles/ff_spacekobold128.png;
 
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''

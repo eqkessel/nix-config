@@ -46,6 +46,8 @@
     obsidian
     telegram-desktop
     krita
+    headsetcontrol
+    headset-charge-indicator
   ];
 
   programs.git = {

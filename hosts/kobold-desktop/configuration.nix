@@ -169,6 +169,9 @@
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
+  # Headsetcontrol udev rules
+  services.udev.packages = [ pkgs.headsetcontrol ];
+
   # Enable sound with pipewire.
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
@@ -227,8 +230,7 @@
     solaar
     signal-desktop
     slack
-    linuxKernel.packages.linux_6_6.digimend # I don't like that this requires an assumption of the kernel version to
-      # specify the kernel module to use, it seems fragile... is there a better way to do this?
+    config.boot.kernelPackages.digimend
   ];
 
   # Enable Udev rules for hardware access from Solaar

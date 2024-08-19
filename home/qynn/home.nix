@@ -1,4 +1,9 @@
-{ config, pkgs, ... }:
+{
+  config,
+  pkgs,
+  pkgs-kicad-7_0_10,
+  ...
+}:
 
 {
   # Home Manager needs a bit of information about you and the paths it should
@@ -48,6 +53,8 @@
     krita
     headsetcontrol
     headset-charge-indicator
+
+    pkgs-kicad-7_0_10.kicad
   ];
 
   programs.git = {

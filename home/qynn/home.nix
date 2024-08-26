@@ -54,6 +54,8 @@
     headsetcontrol
     headset-charge-indicator
     xournalpp
+    pdf4qt
+    pdfarranger
 
     kicad
   ];

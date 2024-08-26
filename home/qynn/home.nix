@@ -53,8 +53,9 @@
     krita
     headsetcontrol
     headset-charge-indicator
+    xournalpp
 
-    pkgs-kicad-7_0_10.kicad
+    kicad
   ];
 
   programs.git = {

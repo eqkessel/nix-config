@@ -86,7 +86,7 @@
 
   # Settings for Nvidia GPU
   # Enable OpenGL
-  hardware.opengl = {
+  hardware.graphics = {
     enable = true;
   };
 

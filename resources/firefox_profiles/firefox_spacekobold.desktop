@@ -1,5 +1,5 @@
 [Desktop Action new-private-window]
-Exec=/run/current-system/sw/bin/firefox -P spacekobold --class=ff_spacekobold --private-window %u
+Exec=/run/current-system/sw/bin/firefox -P spacekobold --class=ff_spacekobold --name=ff_spacekobold --private-window %u
 Name[en_US]=New Private Window
 Name=New Private Window
 Name[ach]=Dirica manyen me mung
@@ -107,7 +107,7 @@ Name[zh_CN]=新建隐私浏览窗口
 Name[zh_TW]=新增隱私視窗
 
 [Desktop Action new-window]
-Exec=/run/current-system/sw/bin/firefox -P spacekobold --class=ff_spacekobold --new-window %u
+Exec=/run/current-system/sw/bin/firefox -P spacekobold --class=ff_spacekobold --name=ff_spacekobold --new-window %u
 Name[en_US]=New Window
 Name=New Window
 Name[ach]=Dirica manyen
@@ -259,7 +259,7 @@ Comment[uk]=Перегляд сторінок Інтернету
 Comment[vi]=Để duyệt các trang web
 Comment[zh_CN]=浏览互联网
 Comment[zh_TW]=瀏覽網際網路
-Exec=/run/current-system/sw/bin/firefox -P spacekobold --class=ff_spacekobold %u
+Exec=/run/current-system/sw/bin/firefox -P spacekobold --class=ff_spacekobold --name=ff_spacekobold %u
 GenericName[en_US]=Web Browser
 GenericName=Web Browser
 GenericName[ar]=متصفح ويب

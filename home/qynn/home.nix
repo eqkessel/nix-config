@@ -54,8 +54,10 @@
     headsetcontrol
     headset-charge-indicator
     xournalpp
-    pdf4qt
     pdfarranger
+    libreoffice
+    onlyoffice-bin
+    vesktop
 
     kicad
   ];

@@ -58,6 +58,7 @@
     libreoffice
     onlyoffice-bin
     vesktop
+    ckan
 
     kicad
   ];

@@ -239,6 +239,9 @@
   # Enable Udev rules for hardware access from Solaar
   hardware.logitech.wireless.enable = true;
 
+  # Enable Corsair keyboard/mouse driver
+  hardware.ckb-next.enable = true;
+
   # Steam
   programs.steam = {
     enable = true;

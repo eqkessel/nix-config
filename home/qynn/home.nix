@@ -60,9 +60,18 @@
     vesktop
     ckan
     gnome-calculator
+    ungoogled-chromium
 
     kicad
   ];
+
+  # Create tray target for syncthingtray
+  systemd.user.targets.tray = {
+    Unit = {
+      Description = "Home Manager System Tray";
+      Requires = [ "graphical-session-pre.target" ];
+    };
+  };
 
   programs.git = {
     enable = true;

@@ -59,6 +59,7 @@
     onlyoffice-bin
     vesktop
     ckan
+    gnome-calculator
 
     kicad
   ];
@@ -85,6 +86,8 @@
     ".local/share/applications/firefox_spacekobold.desktop".source = ../../resources/firefox_profiles/firefox_spacekobold.desktop;
     ".local/share/applications/ff_eqkessel128.png".source = ../../resources/firefox_profiles/ff_eqkessel128.png;
     ".local/share/applications/ff_spacekobold128.png".source = ../../resources/firefox_profiles/ff_spacekobold128.png;
+
+    ".XCompose".source = ../../resources/.XCompose;
 
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''

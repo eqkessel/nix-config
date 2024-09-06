@@ -98,6 +98,9 @@
 
     ".XCompose".source = ../../resources/.XCompose;
 
+    ".bashrc".source = ../../resources/.bashrc;
+    ".bash".source = ../../resources/.bash;
+
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
     #   org.gradle.console=verbose

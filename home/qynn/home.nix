@@ -61,7 +61,7 @@
     ckan
     gnome-calculator
     ungoogled-chromium
-
+    zoom-us
     kicad
   ];
 
